@@ -7,3 +7,5 @@ Please build 'checkpoints' folder in the current folder and put trained model in
 VidTIMIT fadg0 (Female) [Download](https://www.dropbox.com/sh/lk6et49v2uyfzjx/AADAFAp02_b3FQchaYxOZ0EMa?dl=0)
 
 
+## Ackowledgements
+This code is based on the vid2vid framework.
