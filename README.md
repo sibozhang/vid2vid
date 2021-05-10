@@ -1,5 +1,5 @@
 # vid2vid
-modifed version of [vid2vid](https://github.com/NVIDIA/vid2vid) for [Speech2Video](https://github.com/sibozhang/Speech2Video) and Text2Video.
+modifed version of [vid2vid](https://github.com/NVIDIA/vid2vid) for [Speech2Video](https://github.com/sibozhang/Speech2Video) and [Text2Video](https://github.com/sibozhang/Speech2Video).
 
 # Trained model
 Please build 'checkpoints' folder in the current folder and put trained model in it.
