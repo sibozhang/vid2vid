@@ -28,7 +28,7 @@ Please build 'checkpoints' folder in the current folder and put trained model in
 VidTIMIT fadg0 (Female) [Download](https://www.dropbox.com/sh/lk6et49v2uyfzjx/AADAFAp02_b3FQchaYxOZ0EMa?dl=0)
 
 # Q&A
-1. get vid2vid working
+1. Get vid2vid working
 ```
 *cd vid2vid/models/flownet2_pytorch
 *export CUDA_HOME=/tools/cuda-9.2.88/
@@ -38,6 +38,7 @@ VidTIMIT fadg0 (Female) [Download](https://www.dropbox.com/sh/lk6et49v2uyfzjx/AA
 2.  Q: File "/mnt/scratch/sibo/vid2vid/util/util.py", line 62, in tensor2im
     image_numpy = image_tensor.cpu().float().numpy()
 RuntimeError: PyTorch was compiled without NumPy support
+
 A: pip install torch==0.4.1.post2
 
 
