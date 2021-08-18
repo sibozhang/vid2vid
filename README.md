@@ -8,12 +8,13 @@ git clone git@github.com:sibozhang/vid2vid.git
 ```
 
 2. setup env
+torchvision need to be 0.2.2 to be compatible with torch 0.4.1
 ```
 python3 -m venv ../venv/vid2vid
 source ../venv/vid2vid/bin/activate
 pip install --upgrade pip
 pip3 install https://download.pytorch.org/whl/cu92/torch-0.4.1-cp36-cp36m-linux_x86_64.whl 
-pip install torchvision==0.2.2 //need to be 0.2.2 to be compatible with torch 0.4.1
+pip install torchvision==0.2.2 
 pip install numpy==1.16.4
 pip install dominate requests
 pip install pillow
