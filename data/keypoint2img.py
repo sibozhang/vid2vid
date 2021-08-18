@@ -60,7 +60,8 @@ def interpPoints(x, y):
         if x[0] > x[-1]:
             x = list(reversed(x))
             y = list(reversed(y))
-        curve_x = np.linspace(x[0], x[-1], (x[-1]-x[0]))
+        # curve_x = np.linspace(x[0], x[-1], (x[-1]-x[0]))
+        curve_x = np.linspace(int(x[0]), int(x[-1]), int(x[-1]-x[0]))
         if len(x) < 3:
             curve_y = linear(curve_x, *popt)
         else:
