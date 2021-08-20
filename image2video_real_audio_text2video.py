@@ -33,6 +33,7 @@ for a_name in anamelist:
     a_height, a_width, layers = a_img.shape
 
     if out==[]:
+        fourcc = cv2.VideoWriter_fourcc(*'MPEG')
         out=cv2.VideoWriter('./results/{person}/video.mp4'.format(person=person),
                         cv2.VideoWriter_fourcc(*'MP4V'), fps, (a_width, a_height))
     out.write(a_img)
