@@ -26,7 +26,9 @@ pip install pytz
 # Trained model
 Please build 'checkpoints' folder in the current folder and put trained model in it.
 
-VidTIMIT fadg0 (Female) [Download](https://www.dropbox.com/sh/lk6et49v2uyfzjx/AADAFAp02_b3FQchaYxOZ0EMa?dl=0)
+VidTIMIT fadg0 (English, Female) [Download](https://www.dropbox.com/sh/lk6et49v2uyfzjx/AADAFAp02_b3FQchaYxOZ0EMa?dl=0)
+
+Xuesong (Chinese, Male) [Download](https://www.dropbox.com/sh/qz3zoma5ac9mw5p/AAARiR8xKvATN4CBSyjWt_uOa?dl=0)
 
 # Q&A
 1. Get vid2vid working
