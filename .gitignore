@@ -5,3 +5,7 @@ checkpoints/
 *.so
 *.o
 *.DS_Store
+datasets/fadg0/test_openpose/tmp/*
+datasets/fadg0/test_openpose/tmp_smooth/*
+results/*
+
